@@ -13,7 +13,7 @@
     title="Version Thirteen"
     description="🔑 v13.0 of my website."
     url="v13"
-    class="sm:rounded-tr-lg"
+    class="rounded-tr-lg"
     >
         <img src="~assets/images/v13.png" width="2560" height="1440" alt="Version Thirteen Screenshot" />
     </CardMain>

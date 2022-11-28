@@ -1,6 +1,6 @@
 <template>
     <Bar title="v5" />
-    <CardImage class="sm:col-span-2 p-12">
+    <CardImage class="col-span-2 p-12">
         <img src="~assets/images/v5.png" width="2560" height="1440" alt="" />
     </CardImage>
     <CardImage class="p-12">
@@ -14,10 +14,10 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </HeadingSerif>
     </CardText>
-    <CardImage class="sm:col-span-2 p-12">
+    <CardImage class="col-span-2 p-12">
         <img src="~assets/images/v5.png" width="2560" height="1440" alt="" />
     </CardImage>
-    <CardDetail>
+    <CardDetail class="col-span-2">
         <Detail name="Project">
             v5
         </Detail>
