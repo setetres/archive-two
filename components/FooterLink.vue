@@ -1,14 +1,14 @@
 <template>
-    <a :href="url" class="text-zinc-300 hover:text-indigo-400 rounded-full p-1">
-        <span class="sr-only">{{ label }}</span>
-        <slot />
-    </a>
+  <a :href="url" target="_blank" class="p-1 text-white hover:text-indigo-500 rounded-full">
+    <span class="sr-only">{{ label }}</span>
+    <slot />
+  </a>
 </template>
 <script>
   export default {
     props: [
-        'label',
-        'url',
+    'label',
+    'url',
     ]
   }
 </script>

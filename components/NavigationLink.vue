@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink to="" class="n-link-base leading-none px-2 py-1 -ml-2 text-zinc-300 hover:text-indigo-400 inline-flex rounded-full items-center">
-        <slot />
-    </NuxtLink>
+  <NuxtLink to="" class="inline-flex items-center px-2 -ml-2 text-white hover:text-indigo-500 rounded-full">
+    <slot />
+  </NuxtLink>
 </template>
