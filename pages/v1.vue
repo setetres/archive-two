@@ -1,5 +1,9 @@
 <template>
-  <Bar title="v1" />
+  <Bar
+    id="back"
+    title="v1"
+    color="hover:text-indigo-500"
+  />
   <CardImage class="col-span-2">
     <img src="~assets/images/v1.png" width="2560" height="1440" alt="Version One Screenshot" />
   </CardImage>
@@ -14,19 +18,19 @@
       HTML
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-indigo-500">
         2008
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
     label="Source Code"
     title="View on GitHub"
     description="github.com/setetres/v1"
     url="github.com/setetres/v1"
     class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
   />
-  <CardExternal
+  <CardMain
     label="Live"
     title="View Project"
     description="v1.setetres.st"
@@ -34,3 +38,16 @@
     class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

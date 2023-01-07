@@ -2,7 +2,9 @@
   <nav class="grid grid-cols-2 md:grid-cols-4 gap-y-12 uppercase">
     <div class="space-y-12">
       <div>
-        <HeadingSans>Archive</HeadingSans>
+        <HeadingSans>
+          Archive
+        </HeadingSans>
         <ul role="list" class="mt-4 space-y-4">
           <li>
             <NavigationLink to="/v15">
@@ -37,7 +39,9 @@
     </div>
     <div class="space-y-12">
       <div>
-        <HeadingSans>—</HeadingSans>
+        <HeadingSans>
+          —
+        </HeadingSans>
         <ul role="list" class="mt-4 space-y-4">
           <li>
             <NavigationLink to="/v10">
@@ -64,7 +68,9 @@
     </div>
     <div class="space-y-12">
       <div>
-        <HeadingSans>—</HeadingSans>
+        <HeadingSans>
+          —
+        </HeadingSans>
         <ul role="list" class="mt-4 space-y-4">
           <li>
             <NavigationLink to="/v6">
@@ -91,7 +97,9 @@
     </div>
     <div class="space-y-12">
       <div>
-        <HeadingSans>—</HeadingSans>
+        <HeadingSans>
+          —
+        </HeadingSans>
         <ul role="list" class="mt-4 space-y-4">
           <li>
             <NavigationLink to="/v2">
