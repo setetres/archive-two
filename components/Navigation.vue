@@ -5,32 +5,55 @@
         <HeadingSans>
           Archive
         </HeadingSans>
-        <ul role="list" class="mt-4 space-y-4">
+        <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/v15">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v15"
+              to="/v15"
+            >
               Version Fifteen
-              <Tag class="ml-2">
+              <Tag
+                class="ml-2"
+                color="bg-indigo-500"
+              >
                 New
               </Tag>
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v14">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v14"
+              to="/v14"
+            >
               Version Fourteen
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v13">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v13"
+              to="/v13"
+            >
               Version Thirteen
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v12">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v12"
+              to="/v12"
+            >
               Version Twelve
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v11">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v11"
+              to="/v11"
+            >
               Version Eleven
             </NavigationLink>
           </li>
@@ -42,24 +65,40 @@
         <HeadingSans>
           —
         </HeadingSans>
-        <ul role="list" class="mt-4 space-y-4">
+        <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/v10">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v10"
+              to="/v10"
+            >
               Version Ten
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v9">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v9"
+              to="/v9"
+            >
               Version Nine
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v8">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v8"
+              to="/v8"
+            >
               Version Eight
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v7">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v7"
+              to="/v7"
+            >
               Version Seven
             </NavigationLink>
           </li>
@@ -71,24 +110,40 @@
         <HeadingSans>
           —
         </HeadingSans>
-        <ul role="list" class="mt-4 space-y-4">
+        <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/v6">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v6"
+              to="/v6"
+            >
               Version Six
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v5">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v5"
+              to="/v5"
+            >
               Version Five
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v4">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v4"
+              to="/v4"
+            >
               Version Four
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v3">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v3"
+              to="/v3"
+            >
               Version Three
             </NavigationLink>
           </li>
@@ -100,24 +155,40 @@
         <HeadingSans>
           —
         </HeadingSans>
-        <ul role="list" class="mt-4 space-y-4">
+        <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/v2">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v2"
+              to="/v2"
+            >
               Version Two
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/1997">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="1997"
+              to="/1997"
+            >
               Version 1997
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v1">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v1"
+              to="/v1"
+            >
               Version One
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/archive-one">
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="archive-one"
+              to="/archive-one"
+            >
               Archive One
             </NavigationLink>
           </li>

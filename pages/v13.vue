@@ -24,18 +24,24 @@
     </Detail>
   </CardDetail>
   <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
+    color="group-hover:text-indigo-500"
+    description="github.com/setetres/v13"
+    external="true"
+    id="github-v13"
     label="Source Code"
     title="View on GitHub"
-    description="github.com/setetres/v13"
-    url="github.com/setetres/v13"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
+    url="https://github.com/setetres/v13"
   />
   <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-indigo-500"
+    description="v13.setetres.st"
+    external="true"
+    id="live-v13"
     label="Live"
     title="View Project"
-    description="v13.setetres.st"
-    url="v13.setetres.st"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://v13.setetres.st"
   />
 </template>
 <script>

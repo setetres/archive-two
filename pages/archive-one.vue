@@ -24,18 +24,24 @@
     </Detail>
   </CardDetail>
   <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
+    color="group-hover:text-indigo-500"
+    description="github.com/setetres/archive-one"
+    external="true"
+    id="github-archive-one"
     label="Source Code"
     title="View on GitHub"
-    description="github.com/setetres/archive-one"
-    url="github.com/setetres/archive-one"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
+    url="https://github.com/setetres/archive-one"
   />
   <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-indigo-500"
+    description="archive-one.setetres.st"
+    external="true"
+    id="live-archive-one"
     label="Live"
     title="View Project"
-    description="archive-one.setetres.st"
-    url="archive-one.setetres.st"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://archive-one.setetres.st"
   />
 </template>
 <script>
