@@ -13,12 +13,6 @@
               to="/v15"
             >
               Version Fifteen
-              <Tag
-                class="ml-2"
-                color="bg-indigo-500"
-              >
-                New
-              </Tag>
             </NavigationLink>
           </li>
           <li>
