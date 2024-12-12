@@ -1,47 +1,47 @@
 <template>
   <Bar
     id="back"
-    title="v15"
+    title="v16"
     color="hover:text-indigo-500"
   />
   <CardImage class="col-span-2">
-    <img src="~assets/images/v15.png" width="2560" height="1440" alt="Version Fifteen Screenshot" />
+    <img src="~assets/images/v16.png" width="2560" height="1440" alt="Version Sixteen Screenshot" />
   </CardImage>
   <CardDetail class="col-span-2">
     <Detail name="Project">
-      v15
+      v16
     </Detail>
     <Detail name="Description">
-      🎂 v15.0 of my website.
+      🎂 v16.0 of my website.
     </Detail>
     <Detail name="Framework">
       Vue / NuxtJS
     </Detail>
     <Detail name="Year">
       <Tag color="bg-indigo-500">
-        2023
+        2024
       </Tag>
     </Detail>
   </CardDetail>
   <CardMain
     class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
     color="group-hover:text-indigo-500"
-    description="github.com/setetres/v15"
+    description="github.com/setetres/v16"
     external="true"
-    id="github-v15"
+    id="github-v16"
     label="Source Code"
     title="View on GitHub"
-    url="https://github.com/setetres/v15"
+    url="https://github.com/setetres/v16"
   />
   <CardMain
     class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
     color="group-hover:text-indigo-500"
     description="setetres.st"
     external="true"
-    id="live-v15"
+    id="live-v16"
     label="Live"
     title="View Project"
-    url="https://v15.setetres.st"
+    url="https://v16.setetres.st"
   />
 </template>
 <script>

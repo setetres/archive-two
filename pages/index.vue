@@ -2,6 +2,17 @@
   <CardMain
     class="rounded-t-lg sm:rounded-tr-none sm:rounded-tl-lg pattern-hover"
     color="group-hover:text-indigo-500"
+    description="🎂 v16.0 of my website."
+    id="index-v16"
+    label="2024"
+    title="Version Sixteen"
+    url="/v16"
+  >
+    <img src="~assets/images/v16.png" width="2560" height="1440" alt="Version Sixteen Screenshot" />
+  </CardMain>
+  <CardMain
+    class="rounded-t-none sm:rounded-tr-lg pattern-hover"
+    color="group-hover:text-indigo-500"
     description="🎂 v15.0 of my website."
     id="index-v15"
     label="2023"
@@ -11,7 +22,7 @@
     <img src="~assets/images/v15.png" width="2560" height="1440" alt="Version Fifteen Screenshot" />
   </CardMain>
   <CardMain
-    class="rounded-t-none sm:rounded-tr-lg pattern-hover"
+    class="pattern-hover"
     color="group-hover:text-indigo-500"
     description="✏️ v14.0 of my website."
     id="index-v14"
@@ -165,7 +176,7 @@
     <img src="~assets/images/1997.png" width="2560" height="1440" alt="Version 1997 Screenshot" />
   </CardMain>
   <CardMain
-    class="pattern-hover"
+    class="pattern-hover rounded-b-none sm:rounded-bl-lg sm:rounded-br-none "
     color="group-hover:text-indigo-500"
     description="👻 v1.0 of my website."
     id="index-v1"
@@ -176,7 +187,7 @@
     <img src="~assets/images/v1.png" width="2560" height="1440" alt="Version One Screenshot" />
   </CardMain>
   <CardMain
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern-hover"
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern-hover"
     color="group-hover:text-indigo-500"
     description="🗄️ v1.0 of the archive."
     id="index-archive-one"
@@ -186,9 +197,9 @@
   >
     <img src="~assets/images/archive-one.png" width="2560" height="1440" alt="Archive One Screenshot" />
   </CardMain>
-  <div class="relative bg-zinc-900 p-6 md:p-12 pattern rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg">
+  <!-- <div class="relative bg-zinc-900 p-6 md:p-12 pattern rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg">
     &nbsp;
-  </div>
+  </div> -->
 </template>
 <script>
   export default {

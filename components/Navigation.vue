@@ -9,6 +9,15 @@
           <li>
             <NavigationLink
               color="hover:text-indigo-500"
+              id="v16"
+              to="/v16"
+            >
+              Version Sixteen
+            </NavigationLink>
+          </li>
+          <li>
+            <NavigationLink
+              color="hover:text-indigo-500"
               id="v15"
               to="/v15"
             >
@@ -42,15 +51,6 @@
               Version Twelve
             </NavigationLink>
           </li>
-          <li>
-            <NavigationLink
-              color="hover:text-indigo-500"
-              id="v11"
-              to="/v11"
-            >
-              Version Eleven
-            </NavigationLink>
-          </li>
         </ul>
       </div>
     </div>
@@ -60,6 +60,15 @@
           —
         </HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
+          <li>
+            <NavigationLink
+              color="hover:text-indigo-500"
+              id="v11"
+              to="/v11"
+            >
+              Version Eleven
+            </NavigationLink>
+          </li>
           <li>
             <NavigationLink
               color="hover:text-indigo-500"
@@ -141,15 +150,6 @@
               Version Three
             </NavigationLink>
           </li>
-        </ul>
-      </div>
-    </div>
-    <div class="space-y-12">
-      <div>
-        <HeadingSans>
-          —
-        </HeadingSans>
-        <ul role="list" class="mt-6 space-y-3">
           <li>
             <NavigationLink
               color="hover:text-indigo-500"
@@ -159,6 +159,15 @@
               Version Two
             </NavigationLink>
           </li>
+        </ul>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div>
+        <HeadingSans>
+          —
+        </HeadingSans>
+        <ul role="list" class="mt-6 space-y-3">
           <li>
             <NavigationLink
               color="hover:text-indigo-500"
